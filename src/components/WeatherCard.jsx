@@ -91,7 +91,7 @@ function WeatherCard({ coords, city, isDark }) { // <--- KEY CHANGE: Added isDar
 
                     <div className="flex items-start">
                         <span className={`
-                            text-8xl md:text-9xl font-black tracking-tighter transition-all
+                            text-8xl md:text-9xl font-black tracking-tighter transition-allj
                             ${isDark ? 'text-white' : 'text-slate-800'}
                         `}>
                             {Math.round(weather.main.temp)}
